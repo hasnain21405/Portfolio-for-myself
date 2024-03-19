@@ -12,6 +12,7 @@ body {
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
+        
 }
 
 html {
@@ -277,7 +278,7 @@ section {
 .about-detail-container {
     justify-content: center;
     flex-direction: column;
-    margin-left: 2rem;
+    padding-left: 2rem;
     padding-right: 3rem;
 }
 
@@ -340,6 +341,16 @@ section {
     text-align: center;
     height: 160px;
 }
+.experience-box {
+    padding: 0.9rem;
+    flex: 1;
+    background: white;
+    border-radius: 1.5rem;
+    border: rgb(53,53,53) 0.1rem solid; 
+    border-color: rgb(163,163,163);
+    text-align: center;
+    height: 160px;
+}
 
 .experience-container {
     display: flex;
@@ -358,9 +369,6 @@ b {
     padding: 1rem;
     flex: 1;
     background: white;
-    /* border-radius: 1.5rem;
-    border: rgb(53,53,53) 0.1rem solid; 
-    border-color: rgb(163,163,163); */
     text-align: center;
     height: 15px;
     display: flex;
@@ -447,6 +455,9 @@ b {
     flex-wrap: nowrap;
     flex-direction: column-reverse;
     padding: 1rem;
+    height: 100vh;
+    align-content: space-between;
+    justify-content: space-evenly;
 }
 
 .contact__text {
@@ -474,8 +485,8 @@ b {
     display: flex;
 }
 
-.contact__footer {
-    display: flex;
+.contact__foote {
+    /* display: flex; */
     padding-top: 12rem;
     align-items: center;
     flex-direction: column;

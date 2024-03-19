@@ -1,0 +1,166 @@
+
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about.container {
+        flex-wrap: wrap;
+    }
+}
+
+/* Media queries for iPhone SE */
+@media only screen and (max-width: 320px) {
+    /* Adjustments for smaller screens */
+    body {
+        font-size: 14px; /* Decrease font size */
+    }
+
+    .nav-link {
+        font-size: 1.2rem; /* Decrease navigation font size */
+    }
+
+    .logo {
+        font-size: 1.5rem; /* Decrease logo font size */
+    }
+
+    /* Adjustments for profile section */
+    #profile {
+        flex-direction: column; /* Stack profile section vertically */
+        height: auto; /* Remove fixed height */
+    }
+
+    .section__pic-container {
+        margin-bottom: 2rem; /* Add margin below profile picture */
+    }
+
+    .section__text {
+        margin-bottom: 2rem; /* Add margin below profile text */
+    }
+
+    /* Adjustments for about section */
+    .about-container,
+    .section-container {
+        flex-direction: column; /* Stack about section vertically */
+        align-items: center; /* Center align about section */
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .text-container {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 2rem; /* Add margin below text container */
+    }
+
+    /* Adjustments for experience section */
+    .experience-container {
+        flex-direction: column; /* Stack experience section vertically */
+        padding-left: 0; /* Remove left padding */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .experience__box {
+        height: auto; /* Remove fixed height */
+        margin-bottom: 2rem; /* Add margin below each experience box */
+    }
+
+    /* Adjustments for projects section */
+    .project-container {
+        flex-direction: column; /* Stack projects section vertically */
+        align-items: center; /* Center align projects */
+    }
+
+    .project__box {
+        width: 100%; /* Make project boxes full width */
+        margin-bottom: 2rem; /* Add margin below each project box */
+    }
+
+    .project__pic-container {
+        width: 100%; /* Make project images full width */
+    }
+
+    /* Adjustments for contact section */
+    .contact-container {
+        flex-direction: column; /* Stack contact section vertically */
+        align-items: center; /* Center align contact */
+    }
+
+    .contact__box {
+        width: 100%; /* Make contact boxes full width */
+        margin-bottom: 2rem; /* Add margin below each contact box */
+    }
+
+    .contact__footer {
+        padding-top: 6rem; /* Adjust footer padding */
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    /* Hide the black arrow */
+    .arrow {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #contact, .contact-container {
+        height: 40vh;
+    }
+
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    .contact__footer {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-container, .contact-container, .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .contact__box {
+        margin: 0;
+    }
+
+    .contact__copyright, .nav-link li a {
+        font-size: 1rem;
+    }
+
+    .section__text__front {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        text-align: justify;
+    }
+}
