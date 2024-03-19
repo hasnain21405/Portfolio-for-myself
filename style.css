@@ -453,11 +453,11 @@ b {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 1rem;
-    height: 100vh;
+    height: 70vh;
     align-content: space-between;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .contact__text {
@@ -494,6 +494,7 @@ b {
 
 .contact__copyright {
     padding-top: 5rem;
+    text-align: center;
 }
 
 
