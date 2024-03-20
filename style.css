@@ -323,6 +323,7 @@ section {
 
 .section__pic-container {
     margin: auto 0;
+    padding: 0.5rem;
 }
 
 /* **************experience****************** */
@@ -377,7 +378,7 @@ b {
 .front__container {
     display: flex;
     padding: 0.5rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .bullets {
@@ -389,6 +390,11 @@ b {
     font-size: 1.2rem;
     margin-bottom: 0rem;
 }
+
+h4 {
+    text-align: start;
+}
+
 
 .skill__exp {
     display: flex;
@@ -433,7 +439,8 @@ b {
 
 #contact {
     position: relative;
-    padding-top: 9rem;
+    padding-top: 7rem;
+    height: 100%;
 }
 
 .contact__box {
