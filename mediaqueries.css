@@ -8,6 +8,10 @@
     .about.container {
         flex-wrap: wrap;
     }
+
+    .experience-container {
+        padding-right: 5rem;
+    }
 }
 
 
