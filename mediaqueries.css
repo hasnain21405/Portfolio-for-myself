@@ -193,7 +193,7 @@
 
 @media screen and (max-width: 970px) {
     h4 {
-        font-size: 2vh;
+        font-size: 1.7vh;
     }
     .box__front {
         padding-left: 0rem;
@@ -433,6 +433,7 @@
     }
     .section__text__p1 {
         padding-top: 0.1rem;
+        font-size: 1.4vh;
     }
 
     .title {
@@ -662,12 +663,12 @@
     }
 
     .text-container {
-        padding-top: 1vh;
+        padding-top: 5vh;
         padding-left: 0;
     }
 
     p {
-        font-size: 2vh;
+        font-size: 1.8vh;
     }
 
     .front__container {
@@ -679,9 +680,13 @@
         gap: 3.7vh;
     }
 
+    .contact__text {
+        padding-bottom: 1.6vh;
+    }
     .experience__container {
         margin-top: 1vh;
     }
+
 
     .project__box {
         width: 77vw;
