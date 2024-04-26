@@ -199,7 +199,7 @@
         padding-left: 0rem;
     }
     .section__pic-container {
-        margin-left: 15vw;
+        margin-left: 17vw;
     }
     /* .section__pic-container1 {
         margin-left: 15vw;
@@ -663,7 +663,7 @@
     }
 
     .text-container {
-        padding-top: 5vh;
+        padding-top: 6vh;
         padding-left: 0;
     }
 
@@ -699,5 +699,9 @@
     .project-container {
         margin-top: 0.7vw;
         gap: 2vh;
+    }
+
+    .section__pic-container {
+        padding-top: 2vh;
     }
 }
