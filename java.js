@@ -13,3 +13,9 @@ function closePopup() {
 window.onload = function() {
     document.getElementById('popup-container').style.display = 'block';
 };
+
+
+    document.getElementById("logo_id").onclick = function() {
+        window.location.href = "index.html";
+    };
+
